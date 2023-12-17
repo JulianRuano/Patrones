@@ -25,3 +25,7 @@ replay_pid*
 
 #netbeans target folder
 *target
+
+# Typescript generated files
+**/dist/
+**/tsconfig.json
