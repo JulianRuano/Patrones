@@ -12,6 +12,8 @@ public class Main {
 
         System.out.println("Seleccione el tipo de base de datos (1 para MySQL, 2 para Oracle): ");
         int op = scanner.nextInt();
+        scanner.close();
+
 
         ConnectionFactory factory = null;
 
